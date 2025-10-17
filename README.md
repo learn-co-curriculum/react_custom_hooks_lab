@@ -104,3 +104,70 @@ The application passes all test suites.
 Ensure the application:
 - **Persists user data between refreshes.**
 - **Has a functional custom hook (`useLocalStorage`).**
+
+---
+
+# Lab: Form Storage (Custom Hook)
+
+## Overview
+
+This lab focused on creating a **custom React hook** to store and retrieve user form data from `localStorage`.  
+Instead of using a database or external API, the application keeps input values persistent across browser refreshes  
+by syncing component state with the browser’s localStorage system.
+
+---
+
+## Learning Goals
+
+- Create and use a **custom hook** to encapsulate reusable logic.  
+- Understand how to **combine `useState` and `useEffect`** to mirror localStorage behavior.  
+- Build form components that persist user input between sessions.  
+- Follow test-driven patterns for hook structure and state management.
+
+---
+
+## What I Did
+
+1. **Built a custom hook** named `useLocalStorage` that:
+   - Accepts a key and initial value.
+   - Reads from `localStorage` if a key already exists.
+   - Returns a stateful value and setter just like `useState`.
+   - Uses `useEffect` to write back to localStorage on every change.
+
+2. **Linked the hook to form fields** (`name` and `serviceNumber`) in the `Form.jsx` component.  
+   Both values update localStorage in real time as a user types.
+
+3. **Validated the logic** using the provided test suite.  
+   - All tests passed.
+   - Verified persistence manually in the browser.
+
+4. **Optional styling review**  
+   - Tested a CSS enhancement for visual polish.
+   - Decided to revert to the original boilerplate to stay aligned with lab scope and grading focus.
+
+---
+
+## Learned Takeaways
+
+- **Reusability isn’t magic — it’s organization.**  
+  Custom hooks let me package familiar patterns (`useState` + `useEffect`) into reusable tools that make apps cleaner.
+
+- **Persistence doesn’t need a backend.**  
+  Simple localStorage hooks can solve lightweight data retention needs without APIs.
+
+- **Discipline matters.**  
+  It’s easy to get caught up “making it look better,” but staying inside the lab’s scope kept this project clean and efficient.
+
+- **Testing gives instant feedback.**  
+  The test suite acted like a mentor — it was alignment with well-defined expectations.
+
+---
+
+## Build Notes
+
+- Framework: React + Vite  
+- Commands used:
+  ```bash
+  npm install
+  npm run dev
+  npm run test
