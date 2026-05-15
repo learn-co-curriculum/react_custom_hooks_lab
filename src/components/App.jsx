@@ -1,11 +1,25 @@
+import React from "react";
 import Form from "./Form";
+
+/*
+  Main application component
+*/
 function App() {
+
   return (
     <div>
-      <h2>Service Form</h2>
+
+      <h1>
+        Persistent Form Data
+      </h1>
+
+      {/* Render form component */}
       <Form />
+
     </div>
   );
 }
 
-export default App
+export default App;
+
+
