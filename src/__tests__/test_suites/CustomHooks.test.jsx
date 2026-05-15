@@ -24,7 +24,7 @@ class LocalStorageMock {
   }
 }
 
-global.localStorage = new LocalStorageMock;
+global.localStorage = new LocalStorageMock();
 
 beforeEach(() => {
   localStorage.clear();
