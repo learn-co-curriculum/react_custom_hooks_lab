@@ -1,0 +1,17 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="520" rx="24" fill="#f8fafc"/>
+  <rect x="80" y="70" width="740" height="380" rx="20" fill="white" stroke="#dbe4ee" stroke-width="2"/>
+  <text x="120" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Service Form</text>
+  <text x="120" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#475569">Name</text>
+  <rect x="120" y="190" width="300" height="44" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="120" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#475569">Service Number</text>
+  <rect x="120" y="270" width="300" height="44" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="120" y="335" width="140" height="44" rx="8" fill="#2563eb"/>
+  <text x="152" y="362" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="white">Saved</text>
+  <text x="500" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#0f172a">Persisted values survive refreshes</text>
+  <text x="500" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#64748b">A custom hook syncs the form to local storage.</text>
+  <rect x="500" y="280" width="220" height="90" rx="12" fill="#ecfeff" stroke="#22d3ee" stroke-width="2"/>
+  <text x="525" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#0f172a">localStorage</text>
+  <text x="525" y="338" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#0f172a">name = &quot;Ada&quot;</text>
+  <text x="525" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#0f172a">serviceNumber = &quot;42&quot;</text>
+</svg>
