@@ -21,7 +21,7 @@ The form saves the user's name and service number, allowing the information to r
 
 ## Screenshot
 
-![Form Storage Screenshot](./screenshots/form-storage.png)
+![Form Storage Screenshot](./screenshots/local storage.png)
 
 ## Installation and Setup
 
