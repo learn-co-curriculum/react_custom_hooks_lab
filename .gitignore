@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables and sensitive data
+.env
+.env.*
+!.env.example
+
+# Build and coverage files
+coverage/
