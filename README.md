@@ -45,5 +45,16 @@ The form saves the user's name and service number, allowing the information to r
 
 The `useLocalStorage` hook manages form data by retrieving saved values from Local Storage and updating them whenever the state changes.
 
+## How It Works
+
+The custom useLocalStorage hook uses React's useState
+to manage form values and useEffect to save changes
+to the browser's Local Storage.
+
+When the page loads, previously saved values are
+retrieved and displayed in the form. This allows
+the user's information to remain available after
+refreshing the browser.
+
 ## Author
 Terecinta Mocheche Manyi
